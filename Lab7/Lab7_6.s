@@ -25,6 +25,7 @@ lr_bu_2: .word 0
 
 .text
 
+
 sum_func:
 	LDR R2, =lr_bu_2
 	STR lr, [R2]
